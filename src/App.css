@@ -18,7 +18,7 @@ body {
   margin-bottom: 20px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
   border-radius: 1px;
-  max-width: 70%;
+  max-width: 95%;
   padding: 10px;
   overflow: auto;
 }
@@ -33,6 +33,10 @@ img{
 
 .card-body{
   align-content: center;
-  margin-left: 160px;
+  margin-left: 225px;
+}
+.card-body h1{
+  font-weight: 700;
+  font-size: 1.8rem;
 } 
 
