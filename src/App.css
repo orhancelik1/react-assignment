@@ -18,7 +18,7 @@ body {
   margin-bottom: 20px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
   border-radius: 1px;
-  max-width: 95%;
+  max-width: 70%;
   padding: 10px;
   overflow: auto;
 }
@@ -38,5 +38,30 @@ img{
 .card-body h1{
   font-weight: 700;
   font-size: 1.8rem;
+}
+@media only screen and (max-width: 600px) {
+  .card{
+    max-width: 100%;}
 } 
+@media only screen and (min-width: 600px){
+  .card{
+    max-width: 91%;}
+}
 
+@media only screen and (min-width: 768px) {
+  .card{
+    max-width: 83%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    max-width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    max-width: 66%;
+  }
+}
